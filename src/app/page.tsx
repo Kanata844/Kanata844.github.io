@@ -4,9 +4,8 @@ import styles from "./page.module.css";
 export default function Home() {
   return(
     <>
-      <h1>Hello World!</h1>
-      <p><a href="./page1">別のページに移る</a></p>
+      <p><a href="/career">経歴</a></p>
+      <p><a href="/works">作品</a></p>
     </>
-    
   );
 }
