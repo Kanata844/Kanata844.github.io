@@ -1,7 +1,6 @@
 'use client'
 
 import {useState} from 'react';
-import Link from 'next/link';
 
 export default function Header(){
     let [menuClicked, setMenuClicked] = useState(false);
@@ -9,21 +8,21 @@ export default function Header(){
     <>
     <header>
         <div className="top">
-            <div><Link href="/">カナタのホームページ</Link></div>
+            <div><a href="/">カナタのホームページ</a></div>
             <p className="mobile-only" onClick={()=>{setMenuClicked(!menuClicked)}}>{menuClicked? "✕": "三"}</p>
         </div>
         <div className="nav-pc pc-only">
-            <div><Link href="/works">作品</Link></div>
-            <div><Link href="/career">経歴</Link></div>
-            <div><Link href="/about">このサイトについて</Link></div>
-            <div><Link href="/links">各種リンク</Link></div>
+            <div><a href="/works">作品</a></div>
+            <div><a href="/career">経歴</a></div>
+            <div><a href="/about">このサイトについて</a></div>
+            <div><a href="/links">各種リンク</a></div>
         </div>
     </header>
     <div className="nav-mobile mobile-only" style={{right: menuClicked? "0": "-200px"}}>
-        <p>作品</p>
-        <p>経歴</p>
-        <p>このサイトについて</p>
-        <p>各種リンク</p>
+        <p><a href="/works">作品</a></p>
+        <p><a href="/career">経歴</a></p>
+        <p><a href="/about">このサイトについて</a></p>
+        <p><a href="/links">各種リンク</a></p>
     </div>
     <style jsx>{`
     .mobile-only{
@@ -76,7 +75,11 @@ export default function Header(){
         transition: 0.5s;
     }
     .nav-mobile p{
+        margin: 5px;
+    }
+    .nav-mobile a{
         color: white;
+        text-decoration: none;
     }
     .nav-pc a{
         color: white;

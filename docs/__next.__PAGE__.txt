@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[4575,["/_next/static/chunks/ac4e5539c5d7a080.js"],"default"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+2:I[4575,["/_next/static/chunks/3e97392dbf7b3919.js"],"default"]
+3:I[97367,["/_next/static/chunks/42879de7b8087bc9.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"P9FxjAuhgD2SqeyMlqrGK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","p",null,{"children":["$","a",null,{"href":"/career","children":"経歴"}]}],["$","p",null,{"children":["$","a",null,{"href":"/works","children":"作品"}]}]],[["$","script","script-0",{"src":"/_next/static/chunks/ac4e5539c5d7a080.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"ByKuY6OXdiJkg0usZZfXA","rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/_next/static/chunks/3e97392dbf7b3919.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
