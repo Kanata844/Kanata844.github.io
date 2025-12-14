@@ -12,10 +12,16 @@
     justify-content: center;
     align-items: center;
 }
-.top div{
+.top .title{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.top .button{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
 }
 .top a{
     color: white;
@@ -27,7 +33,6 @@
 .top p{
     color: white;
     margin-right: 5px;
-    width: 35px;
     font-size: 30px;
 }
 .nav_pc{

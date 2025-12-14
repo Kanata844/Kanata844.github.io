@@ -9,8 +9,8 @@ export default function Header(){
     <>
     <header className={styles.header}>
         <div className={styles.top}>
-            <div><a href="/">カナタのホームページ</a></div>
-            <p className={styles.mobile_only} onClick={()=>{setMenuClicked(!menuClicked)}}>{menuClicked? "✕": "三"}</p>
+            <div className={styles.title}><a href="/">カナタのホームページ</a></div>
+            <div className={styles.button}><p className={styles.mobile_only} onClick={()=>{setMenuClicked(!menuClicked)}}>{menuClicked? "✕": "三"}</p></div>
         </div>
         <div className={`${styles.nav_pc} ${styles.pc_only}`}>
             <div><a href="/works">作品</a></div>
