@@ -6,6 +6,7 @@
     height: auto;
     background-color: black;
     position: sticky;
+    top: 0px;
 }
 .top {
     display: flex;
@@ -23,7 +24,7 @@
     height: 35px;
     align-items: center;
 }
-.top a{
+.top .link{
     color: white;
     text-decoration: none;
     font-size: 4vw;
@@ -56,11 +57,11 @@
 .nav_mobile p{
     margin: 5px;
 }
-.nav_mobile a{
+.nav_mobile .link{
     color: white;
     text-decoration: none;
 }
-.nav_pc a{
+.nav_pc .link{
     color: white;
     text-decoration: none;
     margin: auto;

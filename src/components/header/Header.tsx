@@ -2,6 +2,7 @@
 
 import {useState} from 'react';
 import styles from "./Header.module.css"
+import Link from 'next/link';
 
 export default function Header(){
     let [menuClicked, setMenuClicked] = useState(false);
@@ -9,21 +10,21 @@ export default function Header(){
     <>
     <header className={styles.header}>
         <div className={styles.top}>
-            <div className={styles.title}><a href="/">カナタのホームページ</a></div>
+            <div className={styles.title}><Link className={styles.link} href="/">カナタのホームページ</Link></div>
             <div className={styles.button}><p className={styles.mobile_only} onClick={()=>{setMenuClicked(!menuClicked)}}>{menuClicked? "✕": "三"}</p></div>
         </div>
         <div className={`${styles.nav_pc} ${styles.pc_only}`}>
-            <div><a href="/works">作品</a></div>
-            <div><a href="/career">経歴</a></div>
-            <div><a href="/about">このサイトについて</a></div>
-            <div><a href="/links">各種リンク</a></div>
+            <div><Link className={styles.link} href="/works">作品</Link></div>
+            <div><Link className={styles.link} href="/career">経歴</Link></div>
+            <div><Link className={styles.link} href="/about">このサイトについて</Link></div>
+            <div><Link className={styles.link} href="/links">各種リンク</Link></div>
         </div>
     </header>
     <div className={`${styles.nav_mobile} ${styles.mobile_only}`} style={{right: menuClicked? "0": "-200px"}}>
-        <p><a href="/works">作品</a></p>
-        <p><a href="/career">経歴</a></p>
-        <p><a href="/about">このサイトについて</a></p>
-        <p><a href="/links">各種リンク</a></p>
+        <p><Link className={styles.link} href="/works">作品</Link></p>
+        <p><Link className={styles.link} href="/career">経歴</Link></p>
+        <p><Link className={styles.link} href="/about">このサイトについて</Link></p>
+        <p><Link className={styles.link} href="/links">各種リンク</Link></p>
     </div>
     </>);
 } 
