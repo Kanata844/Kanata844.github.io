@@ -10,7 +10,7 @@ export default function about(){
     <Header/>
     <h1>このサイトについて</h1>
     <p>このサイトにはNext.jsが使われているよ。Reactってよくわかんないけどなんかすごいね。</p>
-    <Image src={nextLogo} alt="Next.jsのロゴ"/>
+    <Image src={nextLogo} layout={"responsive"} alt="Next.jsのロゴ"/>
     </>
     )
 }
