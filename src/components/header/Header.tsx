@@ -47,7 +47,7 @@ export default function Header(){
     .top a{
         color: white;
         text-decoration: none;
-        font-size: 40px;
+        font-size: 4vw;
         font-family: serif;
         font-weight: bold;
     }
