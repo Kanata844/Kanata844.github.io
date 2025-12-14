@@ -1,11 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Header from "@/components/header/Header"
 
 export default function Home() {
   return(
     <>
-      <p><a href="/career">経歴</a></p>
-      <p><a href="/works">作品</a></p>
+    <Header/>
+    <p><a href="/career">経歴</a></p>
+    <p><a href="/works">作品</a></p>
     </>
   );
 }

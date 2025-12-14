@@ -1,7 +1,13 @@
-export default function Hoge() {
+'use client'
+
+import Header from "@/components/header/Header"
+
+export default function career() {
   return(
     <>
-      <h1>準備中……</h1>
+    <Header/>
+    <h1>経歴</h1>
+    <p>準備中 ちょっとまってくんなまし</p>
     </>
   );
 }
