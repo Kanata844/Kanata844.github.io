@@ -8,7 +8,7 @@ export default function works(){
     <>
     <Header/>
     <h1>作品</h1>
-    <p>絶賛執筆中:<Link href="https://kanata844.github.io/gh-pages-tutorial">こいつ</Link></p>
+    <p>絶賛執筆中:<Link href="https://web-design-tutorial.kanata844.workers.dev/">こいつ</Link></p>
     </>
     )
 }
